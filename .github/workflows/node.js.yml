@@ -8,10 +8,10 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+  
 jobs:
   build:
-
+    environment: deploy
     runs-on: ubuntu-latest
 
     strategy:
