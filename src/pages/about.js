@@ -12,13 +12,10 @@ const AboutPage = ({ data }) => (
       <div className="container py-12 lg:pb-16">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 xl:w-3/5 pb-8 md:pb-0">
-            <h1 className="text-3xl leading-tight font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              A propos
+            <h1 className="text-2xl leading-tight font-extrabold tracking-tight text-pink-400 sm:text-4xl">
+              Hello tout le monde,
             </h1>
 
-            <h2 className="text-xl leading-tight font-semibold tracking-tight text-pink-400 sm:text-2xl">
-              Hello tout le monde,
-            </h2>
             <div className="mt-4 leading-loose">
               Développeuse web le jour, créative le reste du temps, je m'appelle Hélène.
               Fraichement arrivée en Bretagne après être tombée amoureuse de la forêt de Brocéliande,

@@ -38,10 +38,10 @@ export default props => {
               {gallery && gallery.length > 1 && <Carousel images={gallery} />}
             </div>
             <div className="w-full lg:w-1/3 lg:pl-8 xl:pl-12">
-              <h1 className="text-3xl leading-tight font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-1">
+              <h1 className="text-3xl leading-tight font-bold tracking-tight text-gray-900 sm:text-4xl mb-1">
                 {name}
               </h1>
-              <h2 className="text-xl leading-tight font-semibold tracking-tight text-blue-600 sm:text-2xl">
+              <h2 className="text-xl leading-tight font-semibold tracking-tight text-pink-600 sm:text-2xl">
                 {summary}
               </h2>
               {description && (
@@ -61,7 +61,7 @@ export default props => {
       {related && (
         <div className="bg-gray-100 py-12 lg:py-16">
           <div className="container">
-            <h2 className="text-3xl sm:text-4xl leading-tight font-extrabold tracking-tight text-gray-900 mb-8">
+            <h2 className="text-3xl sm:text-4xl leading-tight font-bold tracking-tight text-gray-900 mb-8">
               You may also like
             </h2>
           </div>
