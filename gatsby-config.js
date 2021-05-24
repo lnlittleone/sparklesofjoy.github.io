@@ -21,9 +21,9 @@ module.exports = {
       twitter: "https://twitter.com/",
     },
     locale: "en",
-    title: `John Doe`,
-    description: `Photography portfolio of John Doe`,
-    author: `@johndoe`,
+    title: `Sparkles of Joy`,
+    description: `My little creative corner`,
+    author: `@helene`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -48,8 +48,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `John Doe`,
-        short_name: `johndoe`,
+        name: `Helene`,
+        short_name: `helene`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#3182ce`,

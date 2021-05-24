@@ -1,8 +1,9 @@
 {
-  "name": "gatsby-contentful-portfolio",
-  "description": "Portfolio theme for GatsbyJS",
+  "name": "sparkles-of-joy",
+  "private": true,
+  "description": "My creative little corner",
   "version": "1.0.0",
-  "author": "Wojciech Kocjan <wojciech@kocjan.net>",
+  "author": "LnLittleOne",
   "dependencies": {
     "autoprefixer": "^9.7.6",
     "classnames": "^2.2.6",
@@ -54,9 +55,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wkocjan/gatsby-contentful-portfolio"
+    "url": "https://github.com/sparklesofjoy/sparklesofjoy.github.io"
   },
   "bugs": {
-    "url": "https://github.com/wkocjan/gatsby-contentful-portfolio/issues"
+    "url": "https://github.com/sparklesofjoy/sparklesofjoy.github.io/issues"
   }
 }

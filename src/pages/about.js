@@ -13,38 +13,40 @@ const AboutPage = ({ data }) => (
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 xl:w-3/5 pb-8 md:pb-0">
             <h1 className="text-3xl leading-tight font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              About me
+              A propos
             </h1>
 
-            <h2 className="text-xl leading-tight font-semibold tracking-tight text-blue-600 sm:text-2xl">
-              Interdum et malesuada fames ac ante.
+            <h2 className="text-xl leading-tight font-semibold tracking-tight text-pink-400 sm:text-2xl">
+              Hello tout le monde,
             </h2>
             <div className="mt-4 leading-loose">
-              Curabitur non hendrerit dolor. Interdum et malesuada fames ac ante
-              ipsum primis in faucibus. Ut&nbsp;sapien ex, fringilla sed
-              consectetur et, pharetra eget lacus.
+              Développeuse web le jour, créative le reste du temps, je m'appelle Hélène.
+              Fraichement arrivée en Bretagne après être tombée amoureuse de la forêt de Brocéliande,
+              j'ai toujours été créative et touche-à-tout concernant les activités créatives.
               <br />
               <br />
-              Morbi sem leo, varius ut tempus et, tempor sit amet nibh.
-              Curabitur fermentum feugiat libero, sed egestas lorem aliquam et.
-              Praesent id mi purus. Morbi sem leo, varius ut tempus et, tempor
-              sit amet nibh.
+              Aquarelle, gouache, bullet journaling, couture, broderie, etc.
+              Ma curiosité n'a pas de limites. J'ai découvert le scrapbooking il y a plusieurs années,
+              et j'adore réaliser des albums photos, des cartes ou des pages pour mettre en valeur mes souvenirs.
+              Etre démonstratrice Stampin'up me permet de découvrir de nouveaux produits de qualités,
+              et assouvir ma passion des loisirs créatifs.
               <br />
               <br />
-              I'm happy to hear from you:
+              Si vous souhaitez découvrir ce bel univers ou prendre contact avec moi,
+              n'hésitez pas à m'envoyer un email =).
               <br />
               <a
-                href="mailto:contact@johndoe.com"
-                className="border-b border-gray-500 hover:border-blue-600 hover:text-blue-600"
+                href="mailto:sparklesofjoy.su@gmail.com"
+                className="border-b border-gray-500 hover:border-pink-600 hover:text-pink-600"
               >
-                contact@johndoe.com
+                sparklesofjoy.su@gmail.com
               </a>
             </div>
           </div>
           <div className="w-full md:w-1/2 xl:w-2/5 md:pl-12">
             <Img
               fluid={data.author.childImageSharp.fluid}
-              alt="John Doe"
+              alt="Helene"
               className="rounded-md shadow-md"
             />
           </div>
