@@ -8,7 +8,7 @@ import SiteMetadata from "../components/SiteMetadata"
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SiteMetadata title="Home" description="Portfolio of John Doe" />
+      <SiteMetadata title="Home" description="Sparkle of Joy - blog d'une démonstratrice stampin'up" />
 
       <Hero />
 

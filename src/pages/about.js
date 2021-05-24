@@ -6,7 +6,7 @@ import SiteMetadata from "../components/SiteMetadata"
 
 const AboutPage = ({ data }) => (
   <Layout>
-    <SiteMetadata title="About" description="Sample description" />
+    <SiteMetadata title="About" description="Présentation de l'auteur" />
 
     <div className="bg-gray-100">
       <div className="container py-12 lg:pb-16">
