@@ -50,7 +50,7 @@
     "serve": "gatsby serve",
     "setup": "node ./bin/setup.js",
     "clean": "gatsby clean",
-    "deploy": "npm run build && gh-pages -d public"
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
