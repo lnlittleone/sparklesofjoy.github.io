@@ -16,9 +16,8 @@ module.exports = {
     ],
     links: {
       facebook: "https://www.facebook.com/",
-      instagram: "https://www.instagram.com/",
+      instagram: "https://www.instagram.com/sparklesofjoy.su/",
       pinterest: "https://pinterest.com/",
-      twitter: "https://twitter.com/",
     },
     locale: "en",
     title: `Sparkles of Joy`,

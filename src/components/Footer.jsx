@@ -15,7 +15,6 @@ const Footer = () => {
             facebook
             instagram
             pinterest
-            twitter
           }
         }
       }

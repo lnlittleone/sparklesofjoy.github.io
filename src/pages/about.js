@@ -12,7 +12,7 @@ const AboutPage = ({ data }) => (
       <div className="container py-12 lg:pb-16">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 xl:w-3/5 pb-8 md:pb-0">
-            <h1 className="text-2xl leading-tight font-extrabold tracking-tight text-pink-400 sm:text-4xl">
+            <h1 className="text-2xl leading-tight font-bold tracking-tight text-pink-400 sm:text-4xl">
               Hello tout le monde,
             </h1>
 
