@@ -12,32 +12,38 @@ const AboutPage = ({ data }) => (
       <div className="container py-12 lg:pb-16">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 xl:w-3/5 pb-8 md:pb-0">
-            <h1 className="text-2xl leading-tight font-bold tracking-tight text-pink-400 sm:text-4xl">
-              Hello tout le monde,
+            <h1 className="text-2xl leading-tight font-bold tracking-tight text-green-900 sm:text-4xl">
+              Hi everyone
             </h1>
 
             <div className="mt-4 leading-loose">
-              Développeuse web le jour, créative le reste du temps, je m'appelle Hélène.
-              Fraichement arrivée en Bretagne après être tombée amoureuse de la forêt de Brocéliande,
-              j'ai toujours été créative et touche-à-tout concernant les activités créatives.
+              My name is Hélène, I'm a french thirty-something front-end developer.
+              <br/>
+              Before that, I was a Comic books seller. I have a degree in this field. (Yep it does exist, I'm not joking).
+              <br/>
+              I live in Britanny since 2021 after falling in love of Broceliande's forest.
               <br />
               <br />
-              Aquarelle, gouache, bullet journaling, couture, broderie, etc.
-              Ma curiosité n'a pas de limites. J'ai découvert le scrapbooking il y a plusieurs années,
-              et j'adore réaliser des albums photos, des cartes ou des pages pour mettre en valeur mes souvenirs.
-              Etre démonstratrice Stampin'up me permet de découvrir de nouveaux produits de qualités,
-              et assouvir ma passion des loisirs créatifs.
+              I consider myself as a crafty person.
+              Watercolor, gouache, bullet journaling, sewing, knitting, scrapbooking.
+              <br/> You name it !
+              I'm curious about all crafty things but I'm also a food lover.
+              I always loved eating and I started by baking things, now I really like to cook and improvise.
+              Sometimes, it's really good, other times, not that much XD.
               <br />
               <br />
-              Si vous souhaitez découvrir ce bel univers ou prendre contact avec moi,
-              n'hésitez pas à m'envoyer un email =).
+              I created this little corner of the internet to talk about those things but also about coding.
+              Cuz it's my job, I enjoy it and I'm learning lots of things (and I'm pretty sure it's never gonna stop).
+              Feel free to contact me at this address.
               <br />
               <a
                 href="mailto:sparklesofjoy.su@gmail.com"
-                className="border-b border-gray-500 hover:border-pink-600 hover:text-pink-600"
+                className="text-purple-900 border-b border-purple-900 hover:border-purple-300 hover:text-purple-300"
               >
                 sparklesofjoy.su@gmail.com
               </a>
+              <br/>
+              Enjoy !
             </div>
           </div>
           <div className="w-full md:w-1/2 xl:w-2/5 md:pl-12">

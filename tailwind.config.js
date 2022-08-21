@@ -6,7 +6,7 @@ module.exports = {
       padding: "1.25rem",
     },
     fontFamily: {
-      sans: ["Gill Sans", "system-ui", "sans-serif"],
+      sans: ["Gill sans", "system-ui", "sans-serif"],
     },
   },
   variants: {
