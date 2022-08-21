@@ -12,7 +12,7 @@ const AboutPage = ({ data }) => (
       <div className="container py-12 lg:pb-16">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 xl:w-3/5 pb-8 md:pb-0">
-            <h1 className="text-2xl leading-tight font-bold tracking-tight text-green-900 sm:text-4xl">
+            <h1 className="text-2xl leading-tight font-bold tracking-tight text-teal-800 sm:text-4xl">
               Hi everyone
             </h1>
 
@@ -38,7 +38,7 @@ const AboutPage = ({ data }) => (
               <br />
               <a
                 href="mailto:sparklesofjoy.su@gmail.com"
-                className="text-purple-900 border-b border-purple-900 hover:border-purple-300 hover:text-purple-300"
+                className="text-purple-300 border-b border-purple-300 hover:border-purple-900 hover:text-purple-900"
               >
                 sparklesofjoy.su@gmail.com
               </a>
